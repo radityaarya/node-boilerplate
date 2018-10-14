@@ -10,7 +10,7 @@ const normalizePort = (val) => {
 }
 
 const onListening = () => {
-    console.log(`server started`)
+    console.log(`${APP_NAME} server started @ ${DATE_NOW("DD/MMM/YYYY:HH:mm:ss")} +0000`)
     console.log(`Env => ${process.env.NODE_ENV} | Listeing => ${HOST}:${PORT}\n`)
 }
 
